@@ -8,7 +8,7 @@ const Main = () => {
     const movie=movies[Math.floor(Math.random() * movies.length)]
 
      console.log("os environment--->",process.env.REACT_APP_APP_ID)
-                console.log("os environment--->",process.env.REACT_APP_ACCESS_KEY)
+                console.log("os environment from aws--->",process.env.REACT_APP_ACCESS_KEY)
 
 
     useEffect(() => {
